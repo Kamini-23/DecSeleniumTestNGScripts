@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [mySuite]" parallel="classes">
+  <test thread-count="2" name="myTests(failed)" parallel="classes">
+    <classes>
+      <class name="testNgScripts.DropDowns">
+        <methods>
+          <include name="dropdowncheck"/>
+        </methods>
+      </class> <!-- testNgScripts.DropDowns -->
+    </classes>
+  </test> <!-- myTests(failed) -->
+</suite> <!-- Failed suite [mySuite] -->
