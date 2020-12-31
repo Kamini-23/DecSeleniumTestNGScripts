@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="19" passed="19">
+<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37657" started-at="2020-12-29T01:59:10Z" finished-at="2020-12-29T01:59:47Z">
+  <suite name="Default suite" duration-ms="23401" started-at="2020-12-31T00:42:33Z" finished-at="2020-12-31T00:42:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37657" started-at="2020-12-29T01:59:10Z" finished-at="2020-12-29T01:59:47Z">
-      <class name="testNgScripts.POIDemo">
-        <test-method status="PASS" signature="startbrowser()[pri:0, instance:testNgScripts.POIDemo@1efef64]" name="startbrowser" is-config="true" duration-ms="11228" started-at="2020-12-29T01:59:10Z" finished-at="2020-12-29T01:59:21Z">
+    <test name="Default test" duration-ms="23401" started-at="2020-12-31T00:42:33Z" finished-at="2020-12-31T00:42:57Z">
+      <class name="testNgScripts.Annotations2">
+        <test-method status="PASS" signature="startBrowswer()[pri:0, instance:testNgScripts.Annotations2@1c62251]" name="startBrowswer" is-config="true" duration-ms="8904" started-at="2020-12-31T00:42:33Z" finished-at="2020-12-31T00:42:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startbrowser -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1630" started-at="2020-12-29T01:59:23Z" data-provider="testdata" finished-at="2020-12-29T01:59:24Z">
+        </test-method> <!-- startBrowswer -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="817" started-at="2020-12-31T00:42:42Z" data-provider="testData" finished-at="2020-12-31T00:42:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[us1]]>
+                <![CDATA[Username1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[ps1]]>
+                <![CDATA[password1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password123]]>
+                <![CDATA[passwrod1]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username1@gmail.com]]>
+                <![CDATA[email2@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1112" started-at="2020-12-29T01:59:24Z" data-provider="testdata" finished-at="2020-12-29T01:59:26Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="775" started-at="2020-12-31T00:42:43Z" data-provider="testData" finished-at="2020-12-31T00:42:44Z">
           <params>
             <param index="0">
               <value>
@@ -46,24 +46,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password2]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[passward@123]]>
+                <![CDATA[passwrod2]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username2@gmail.com]]>
+                <![CDATA[email3@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1137" started-at="2020-12-29T01:59:26Z" data-provider="testdata" finished-at="2020-12-29T01:59:27Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="761" started-at="2020-12-31T00:42:44Z" data-provider="testData" finished-at="2020-12-31T00:42:45Z">
           <params>
             <param index="0">
               <value>
@@ -72,24 +72,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password3]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password@456]]>
+                <![CDATA[passwrod3]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username3@gmail.com]]>
+                <![CDATA[email4@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1086" started-at="2020-12-29T01:59:27Z" data-provider="testdata" finished-at="2020-12-29T01:59:28Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="811" started-at="2020-12-31T00:42:45Z" data-provider="testData" finished-at="2020-12-31T00:42:45Z">
           <params>
             <param index="0">
               <value>
@@ -98,24 +98,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password4]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[passward@124]]>
+                <![CDATA[passwrod4]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username4@gmail.com]]>
+                <![CDATA[email5@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1079" started-at="2020-12-29T01:59:28Z" data-provider="testdata" finished-at="2020-12-29T01:59:29Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="718" started-at="2020-12-31T00:42:45Z" data-provider="testData" finished-at="2020-12-31T00:42:46Z">
           <params>
             <param index="0">
               <value>
@@ -124,24 +124,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password5]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password@457]]>
+                <![CDATA[passwrod5]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username5@gmail.com]]>
+                <![CDATA[email6@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1040" started-at="2020-12-29T01:59:29Z" data-provider="testdata" finished-at="2020-12-29T01:59:30Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="733" started-at="2020-12-31T00:42:46Z" data-provider="testData" finished-at="2020-12-31T00:42:47Z">
           <params>
             <param index="0">
               <value>
@@ -150,24 +150,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password6]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[passward@125]]>
+                <![CDATA[passwrod6]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username6@gmail.com]]>
+                <![CDATA[email7@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1451" started-at="2020-12-29T01:59:30Z" data-provider="testdata" finished-at="2020-12-29T01:59:31Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="645" started-at="2020-12-31T00:42:47Z" data-provider="testData" finished-at="2020-12-31T00:42:48Z">
           <params>
             <param index="0">
               <value>
@@ -176,24 +176,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password7]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password@458]]>
+                <![CDATA[passwrod7]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username7@gmail.com]]>
+                <![CDATA[email8@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1390" started-at="2020-12-29T01:59:31Z" data-provider="testdata" finished-at="2020-12-29T01:59:33Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="682" started-at="2020-12-31T00:42:48Z" data-provider="testData" finished-at="2020-12-31T00:42:48Z">
           <params>
             <param index="0">
               <value>
@@ -202,102 +202,102 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password8]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[passward@126]]>
+                <![CDATA[passwrod8]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username8@gmail.com]]>
+                <![CDATA[email9@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1380" started-at="2020-12-29T01:59:33Z" data-provider="testdata" finished-at="2020-12-29T01:59:34Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="631" started-at="2020-12-31T00:42:48Z" data-provider="testData" finished-at="2020-12-31T00:42:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Username9]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password9]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password@459]]>
+                <![CDATA[passwrod9]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username9@gmail.com]]>
+                <![CDATA[email10@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1384" started-at="2020-12-29T01:59:34Z" data-provider="testdata" finished-at="2020-12-29T01:59:36Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="637" started-at="2020-12-31T00:42:49Z" data-provider="testData" finished-at="2020-12-31T00:42:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Username10]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password10]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[passward@127]]>
+                <![CDATA[passwrod10]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username10@gmail.com]]>
+                <![CDATA[email11@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1347" started-at="2020-12-29T01:59:36Z" data-provider="testdata" finished-at="2020-12-29T01:59:37Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="611" started-at="2020-12-31T00:42:49Z" data-provider="testData" finished-at="2020-12-31T00:42:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Username11]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password11]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password@460]]>
+                <![CDATA[passwrod11]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username11@gmail.com]]>
+                <![CDATA[email12@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1276" started-at="2020-12-29T01:59:37Z" data-provider="testdata" finished-at="2020-12-29T01:59:38Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="606" started-at="2020-12-31T00:42:50Z" data-provider="testData" finished-at="2020-12-31T00:42:51Z">
           <params>
             <param index="0">
               <value>
@@ -306,24 +306,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password12]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[passward@128]]>
+                <![CDATA[passwrod12]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username12@gmail.com]]>
+                <![CDATA[email13@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1401" started-at="2020-12-29T01:59:38Z" data-provider="testdata" finished-at="2020-12-29T01:59:40Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="622" started-at="2020-12-31T00:42:51Z" data-provider="testData" finished-at="2020-12-31T00:42:51Z">
           <params>
             <param index="0">
               <value>
@@ -332,24 +332,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password13]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password@461]]>
+                <![CDATA[passwrod13]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username13@gmail.com]]>
+                <![CDATA[email14@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1345" started-at="2020-12-29T01:59:40Z" data-provider="testdata" finished-at="2020-12-29T01:59:41Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="641" started-at="2020-12-31T00:42:51Z" data-provider="testData" finished-at="2020-12-31T00:42:52Z">
           <params>
             <param index="0">
               <value>
@@ -358,24 +358,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password14]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[passward@129]]>
+                <![CDATA[passwrod14]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username14@gmail.com]]>
+                <![CDATA[email15@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1309" started-at="2020-12-29T01:59:41Z" data-provider="testdata" finished-at="2020-12-29T01:59:42Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="649" started-at="2020-12-31T00:42:52Z" data-provider="testData" finished-at="2020-12-31T00:42:53Z">
           <params>
             <param index="0">
               <value>
@@ -384,24 +384,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password15]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password@462]]>
+                <![CDATA[passwrod15]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username15@gmail.com]]>
+                <![CDATA[email16@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1414" started-at="2020-12-29T01:59:42Z" data-provider="testdata" finished-at="2020-12-29T01:59:44Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="660" started-at="2020-12-31T00:42:53Z" data-provider="testData" finished-at="2020-12-31T00:42:53Z">
           <params>
             <param index="0">
               <value>
@@ -410,24 +410,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password16]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[passward@130]]>
+                <![CDATA[passwrod16]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username16@gmail.com]]>
+                <![CDATA[email17@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1311" started-at="2020-12-29T01:59:44Z" data-provider="testdata" finished-at="2020-12-29T01:59:45Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="613" started-at="2020-12-31T00:42:53Z" data-provider="testData" finished-at="2020-12-31T00:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -436,24 +436,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password17]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password@463]]>
+                <![CDATA[passwrod17]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username17@gmail.com]]>
+                <![CDATA[email18@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1184" started-at="2020-12-29T01:59:45Z" data-provider="testdata" finished-at="2020-12-29T01:59:46Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="640" started-at="2020-12-31T00:42:54Z" data-provider="testData" finished-at="2020-12-31T00:42:55Z">
           <params>
             <param index="0">
               <value>
@@ -462,24 +462,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password18]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[passward@131]]>
+                <![CDATA[passwrod18]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username18@gmail.com]]>
+                <![CDATA[email19@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.POIDemo@1efef64]" name="wikipagedata" duration-ms="1077" started-at="2020-12-29T01:59:46Z" data-provider="testdata" finished-at="2020-12-29T01:59:47Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="608" started-at="2020-12-31T00:42:55Z" data-provider="testData" finished-at="2020-12-31T00:42:55Z">
           <params>
             <param index="0">
               <value>
@@ -488,24 +488,76 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[pas@123]]>
+                <![CDATA[password19]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password@464]]>
+                <![CDATA[passwrod19]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Username19@gmail.com]]>
+                <![CDATA[email20@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-      </class> <!-- testNgScripts.POIDemo -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="646" started-at="2020-12-31T00:42:55Z" data-provider="testData" finished-at="2020-12-31T00:42:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passwrod20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[email21@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="782" started-at="2020-12-31T00:42:56Z" data-provider="testData" finished-at="2020-12-31T00:42:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password21]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passwrod21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[email22@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+      </class> <!-- testNgScripts.Annotations2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
