@@ -19,7 +19,7 @@ public class Annotations {
 	@BeforeMethod
 	public void createuser()
 	{
-		System.out.println("createuser");
+		System.out.println("createuser added by MAC");
 	}
 	@Test
 	public void method1()
