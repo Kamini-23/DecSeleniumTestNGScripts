@@ -12,10 +12,10 @@ public class DragandDrop {
 		// TODO Auto-generated method stub
 
 
-System.setProperty("webdriver.chrome.driver", "C:\\Users\\vishal mittal\\Downloads\\chromedriver_win32 (10)\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vishal mittal\\Downloads\\chromedriver_win32 (16)\\chromedriver.exe");
 		
-		driver.manage().window().maximize();
+	 	WebDriver driver = new ChromeDriver();
+	 	driver.manage().window().maximize();
 		
 driver.get("https://jqueryui.com/droppable/");
 
@@ -39,7 +39,7 @@ action.clickAndHold(e).moveToElement(e1).release().build().perform();
 //action.doubleClick(e).build().perform();
 Thread.sleep(3000);
 //right click on an element
-action.contextClick(e1).build().perform();
+//action.contextClick(e1).build().perform();
 Thread.sleep(5000);
 
 
