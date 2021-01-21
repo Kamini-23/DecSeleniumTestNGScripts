@@ -19,6 +19,7 @@ public class Annotations {
 	@BeforeMethod
 	public void createuser()
 	{
+
 		System.out.println("createuser by sonal");
 		System.out.println("createuser by sonal");
 		System.out.println("createuser by sonal");
@@ -26,6 +27,9 @@ public class Annotations {
 		System.out.println("createuser by sonal");
 		System.out.println("createuser by sonal");
 		System.out.println("createuser by sonal");
+
+		System.out.println("createuser added by MAC");
+
 	}
 	@Test
 	public void method1()
