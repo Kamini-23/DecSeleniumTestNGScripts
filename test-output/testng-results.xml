@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23401" started-at="2020-12-31T00:42:33Z" finished-at="2020-12-31T00:42:57Z">
+  <suite name="Default suite" duration-ms="44399" started-at="2021-01-08T00:25:07Z" finished-at="2021-01-08T00:25:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23401" started-at="2020-12-31T00:42:33Z" finished-at="2020-12-31T00:42:57Z">
-      <class name="testNgScripts.Annotations2">
-        <test-method status="PASS" signature="startBrowswer()[pri:0, instance:testNgScripts.Annotations2@1c62251]" name="startBrowswer" is-config="true" duration-ms="8904" started-at="2020-12-31T00:42:33Z" finished-at="2020-12-31T00:42:42Z">
+    <test name="Default test" duration-ms="44399" started-at="2021-01-08T00:25:07Z" finished-at="2021-01-08T00:25:51Z">
+      <class name="testNgScripts.Parameterization_XLS">
+        <test-method status="PASS" signature="startbrowser()[pri:0, instance:testNgScripts.Parameterization_XLS@1c62251]" name="startbrowser" is-config="true" duration-ms="16299" started-at="2021-01-08T00:25:07Z" finished-at="2021-01-08T00:25:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startBrowswer -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="817" started-at="2020-12-31T00:42:42Z" data-provider="testData" finished-at="2020-12-31T00:42:43Z">
+        </test-method> <!-- startbrowser -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="2981" started-at="2021-01-08T00:25:25Z" data-provider="readData" finished-at="2021-01-08T00:25:28Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="775" started-at="2020-12-31T00:42:43Z" data-provider="testData" finished-at="2020-12-31T00:42:44Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="951" started-at="2021-01-08T00:25:28Z" data-provider="readData" finished-at="2021-01-08T00:25:29Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="761" started-at="2020-12-31T00:42:44Z" data-provider="testData" finished-at="2020-12-31T00:42:45Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="933" started-at="2021-01-08T00:25:29Z" data-provider="readData" finished-at="2021-01-08T00:25:30Z">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="811" started-at="2020-12-31T00:42:45Z" data-provider="testData" finished-at="2020-12-31T00:42:45Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1303" started-at="2021-01-08T00:25:30Z" data-provider="readData" finished-at="2021-01-08T00:25:31Z">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="718" started-at="2020-12-31T00:42:45Z" data-provider="testData" finished-at="2020-12-31T00:42:46Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1262" started-at="2021-01-08T00:25:31Z" data-provider="readData" finished-at="2021-01-08T00:25:33Z">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="733" started-at="2020-12-31T00:42:46Z" data-provider="testData" finished-at="2020-12-31T00:42:47Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="846" started-at="2021-01-08T00:25:33Z" data-provider="readData" finished-at="2021-01-08T00:25:33Z">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="645" started-at="2020-12-31T00:42:47Z" data-provider="testData" finished-at="2020-12-31T00:42:48Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1788" started-at="2021-01-08T00:25:33Z" data-provider="readData" finished-at="2021-01-08T00:25:35Z">
           <params>
             <param index="0">
               <value>
@@ -193,7 +193,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="682" started-at="2020-12-31T00:42:48Z" data-provider="testData" finished-at="2020-12-31T00:42:48Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1246" started-at="2021-01-08T00:25:35Z" data-provider="readData" finished-at="2021-01-08T00:25:37Z">
           <params>
             <param index="0">
               <value>
@@ -219,11 +219,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="631" started-at="2020-12-31T00:42:48Z" data-provider="testData" finished-at="2020-12-31T00:42:49Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1229" started-at="2021-01-08T00:25:37Z" data-provider="readData" finished-at="2021-01-08T00:25:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Username9]]>
               </value>
             </param>
             <param index="1">
@@ -245,11 +245,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="637" started-at="2020-12-31T00:42:49Z" data-provider="testData" finished-at="2020-12-31T00:42:49Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1540" started-at="2021-01-08T00:25:38Z" data-provider="readData" finished-at="2021-01-08T00:25:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Username10]]>
               </value>
             </param>
             <param index="1">
@@ -271,11 +271,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="611" started-at="2020-12-31T00:42:49Z" data-provider="testData" finished-at="2020-12-31T00:42:50Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="984" started-at="2021-01-08T00:25:39Z" data-provider="readData" finished-at="2021-01-08T00:25:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Username11]]>
               </value>
             </param>
             <param index="1">
@@ -297,7 +297,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="606" started-at="2020-12-31T00:42:50Z" data-provider="testData" finished-at="2020-12-31T00:42:51Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="962" started-at="2021-01-08T00:25:40Z" data-provider="readData" finished-at="2021-01-08T00:25:41Z">
           <params>
             <param index="0">
               <value>
@@ -323,7 +323,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="622" started-at="2020-12-31T00:42:51Z" data-provider="testData" finished-at="2020-12-31T00:42:51Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="967" started-at="2021-01-08T00:25:41Z" data-provider="readData" finished-at="2021-01-08T00:25:42Z">
           <params>
             <param index="0">
               <value>
@@ -349,7 +349,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="641" started-at="2020-12-31T00:42:51Z" data-provider="testData" finished-at="2020-12-31T00:42:52Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="869" started-at="2021-01-08T00:25:42Z" data-provider="readData" finished-at="2021-01-08T00:25:43Z">
           <params>
             <param index="0">
               <value>
@@ -375,7 +375,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="649" started-at="2020-12-31T00:42:52Z" data-provider="testData" finished-at="2020-12-31T00:42:53Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1359" started-at="2021-01-08T00:25:43Z" data-provider="readData" finished-at="2021-01-08T00:25:44Z">
           <params>
             <param index="0">
               <value>
@@ -401,7 +401,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="660" started-at="2020-12-31T00:42:53Z" data-provider="testData" finished-at="2020-12-31T00:42:53Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1171" started-at="2021-01-08T00:25:44Z" data-provider="readData" finished-at="2021-01-08T00:25:46Z">
           <params>
             <param index="0">
               <value>
@@ -427,7 +427,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="613" started-at="2020-12-31T00:42:53Z" data-provider="testData" finished-at="2020-12-31T00:42:54Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1064" started-at="2021-01-08T00:25:46Z" data-provider="readData" finished-at="2021-01-08T00:25:47Z">
           <params>
             <param index="0">
               <value>
@@ -453,7 +453,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="640" started-at="2020-12-31T00:42:54Z" data-provider="testData" finished-at="2020-12-31T00:42:55Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1163" started-at="2021-01-08T00:25:47Z" data-provider="readData" finished-at="2021-01-08T00:25:48Z">
           <params>
             <param index="0">
               <value>
@@ -479,7 +479,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="608" started-at="2020-12-31T00:42:55Z" data-provider="testData" finished-at="2020-12-31T00:42:55Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1148" started-at="2021-01-08T00:25:48Z" data-provider="readData" finished-at="2021-01-08T00:25:49Z">
           <params>
             <param index="0">
               <value>
@@ -505,7 +505,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="646" started-at="2020-12-31T00:42:55Z" data-provider="testData" finished-at="2020-12-31T00:42:56Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1106" started-at="2021-01-08T00:25:49Z" data-provider="readData" finished-at="2021-01-08T00:25:50Z">
           <params>
             <param index="0">
               <value>
@@ -531,7 +531,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Annotations2@1c62251]" name="wikipagedata" duration-ms="782" started-at="2020-12-31T00:42:56Z" data-provider="testData" finished-at="2020-12-31T00:42:57Z">
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:testNgScripts.Parameterization_XLS@1c62251]" name="wikipagedata" duration-ms="1338" started-at="2021-01-08T00:25:50Z" data-provider="readData" finished-at="2021-01-08T00:25:51Z">
           <params>
             <param index="0">
               <value>
@@ -557,7 +557,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikipagedata -->
-      </class> <!-- testNgScripts.Annotations2 -->
+      </class> <!-- testNgScripts.Parameterization_XLS -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
